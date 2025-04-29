@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rider-transitive-c-cli-build-issue", "rider-transitive-c-cli-build-issue\rider-transitive-c-cli-build-issue.csproj", "{2EC83E90-18A4-4CC7-8266-AE1CF7AFEE5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetClassLibrary", "DotNetClassLibrary\DotNetClassLibrary.csproj", "{3D27432D-1176-4A3B-BA9D-34580AA857FD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CliDll", "CliDll\CliDll.vcxproj", "{622A8AC9-D940-40BF-9E13-08F25148E5BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EC83E90-18A4-4CC7-8266-AE1CF7AFEE5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EC83E90-18A4-4CC7-8266-AE1CF7AFEE5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EC83E90-18A4-4CC7-8266-AE1CF7AFEE5C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2EC83E90-18A4-4CC7-8266-AE1CF7AFEE5C}.Debug|x64.Build.0 = Debug|Any CPU
+		{2EC83E90-18A4-4CC7-8266-AE1CF7AFEE5C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2EC83E90-18A4-4CC7-8266-AE1CF7AFEE5C}.Debug|x86.Build.0 = Debug|Any CPU
+		{2EC83E90-18A4-4CC7-8266-AE1CF7AFEE5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EC83E90-18A4-4CC7-8266-AE1CF7AFEE5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EC83E90-18A4-4CC7-8266-AE1CF7AFEE5C}.Release|x64.ActiveCfg = Release|Any CPU
+		{2EC83E90-18A4-4CC7-8266-AE1CF7AFEE5C}.Release|x64.Build.0 = Release|Any CPU
+		{2EC83E90-18A4-4CC7-8266-AE1CF7AFEE5C}.Release|x86.ActiveCfg = Release|Any CPU
+		{2EC83E90-18A4-4CC7-8266-AE1CF7AFEE5C}.Release|x86.Build.0 = Release|Any CPU
+		{3D27432D-1176-4A3B-BA9D-34580AA857FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D27432D-1176-4A3B-BA9D-34580AA857FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D27432D-1176-4A3B-BA9D-34580AA857FD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3D27432D-1176-4A3B-BA9D-34580AA857FD}.Debug|x64.Build.0 = Debug|Any CPU
+		{3D27432D-1176-4A3B-BA9D-34580AA857FD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3D27432D-1176-4A3B-BA9D-34580AA857FD}.Debug|x86.Build.0 = Debug|Any CPU
+		{3D27432D-1176-4A3B-BA9D-34580AA857FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D27432D-1176-4A3B-BA9D-34580AA857FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D27432D-1176-4A3B-BA9D-34580AA857FD}.Release|x64.ActiveCfg = Release|Any CPU
+		{3D27432D-1176-4A3B-BA9D-34580AA857FD}.Release|x64.Build.0 = Release|Any CPU
+		{3D27432D-1176-4A3B-BA9D-34580AA857FD}.Release|x86.ActiveCfg = Release|Any CPU
+		{3D27432D-1176-4A3B-BA9D-34580AA857FD}.Release|x86.Build.0 = Release|Any CPU
+		{622A8AC9-D940-40BF-9E13-08F25148E5BA}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{622A8AC9-D940-40BF-9E13-08F25148E5BA}.Debug|Any CPU.Build.0 = Debug|x64
+		{622A8AC9-D940-40BF-9E13-08F25148E5BA}.Debug|x64.ActiveCfg = Debug|x64
+		{622A8AC9-D940-40BF-9E13-08F25148E5BA}.Debug|x64.Build.0 = Debug|x64
+		{622A8AC9-D940-40BF-9E13-08F25148E5BA}.Debug|x86.ActiveCfg = Debug|Win32
+		{622A8AC9-D940-40BF-9E13-08F25148E5BA}.Debug|x86.Build.0 = Debug|Win32
+		{622A8AC9-D940-40BF-9E13-08F25148E5BA}.Release|Any CPU.ActiveCfg = Release|x64
+		{622A8AC9-D940-40BF-9E13-08F25148E5BA}.Release|Any CPU.Build.0 = Release|x64
+		{622A8AC9-D940-40BF-9E13-08F25148E5BA}.Release|x64.ActiveCfg = Release|x64
+		{622A8AC9-D940-40BF-9E13-08F25148E5BA}.Release|x64.Build.0 = Release|x64
+		{622A8AC9-D940-40BF-9E13-08F25148E5BA}.Release|x86.ActiveCfg = Release|Win32
+		{622A8AC9-D940-40BF-9E13-08F25148E5BA}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0EE4893-5ACD-4A95-B331-5F74576ABF55}
+	EndGlobalSection
+EndGlobal
